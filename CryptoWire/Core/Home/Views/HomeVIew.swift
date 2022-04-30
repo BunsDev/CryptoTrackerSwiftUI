@@ -16,24 +16,7 @@ struct HomeVIew: View {
             Color.theme.background
                 .ignoresSafeArea()
             VStack {
-                HStack {
-                    CircleButtonView(iconName: showPortfolio ? "plus": "info")
-                        .animation(.none)
-                    Spacer()
-
-                    Text("Live Price")
-                        .fontWeight(.heavy)
-                        .font(.headline)
-                        .foregroundColor(Color.theme.accent)
-                    Spacer()
-                    CircleButtonView(iconName: "chevron.right")
-                        .rotationEffect(Angle(degrees: showPortfolio ? 180 : 0))
-                        .onTapGesture {
-                            withAnimation(.spring()){
-                                showPortfolio.toggle()
-                            }
-                        }
-                }
+                homeHeader
                 Spacer(minLength: 0)
             }.padding(.horizontal)
         }
@@ -46,5 +29,34 @@ struct HomeVIew_Previews: PreviewProvider {
             HomeVIew()
                 .navigationBarHidden(true)
         }
+    }
+}
+
+extension HomeVIew {
+    private var homeHeader : some View {
+        HStack {
+            CircleButtonView(iconName: showPortfolio ? "plus": "info")
+            
+                .animation(.none)
+                .background(
+                    CircleButtonAnimationView(animate: $showPortfolio)
+                )
+            Spacer()
+
+            Text(showPortfolio ? "Portfolio" : "Live Price")
+                .fontWeight(.heavy)
+                .font(.headline)
+                .foregroundColor(Color.theme.accent)
+                .animation(.none)
+            Spacer()
+            CircleButtonView(iconName: "chevron.right")
+                .rotationEffect(Angle(degrees: showPortfolio ? 180 : 0))
+                .onTapGesture {
+                    withAnimation(.spring()){
+                        showPortfolio.toggle()
+                    }
+                }
+        }
+
     }
 }

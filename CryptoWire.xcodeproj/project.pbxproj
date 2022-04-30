@@ -29,6 +29,7 @@
 		FAE97B55281D939D004B6E44 /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE97B50281D939D004B6E44 /* StatisticModel.swift */; };
 		FAE97B56281D939D004B6E44 /* CoinDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE97B51281D939D004B6E44 /* CoinDetailModel.swift */; };
 		FAE97B5A281D9491004B6E44 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE97B59281D9491004B6E44 /* CircleButtonView.swift */; };
+		FAE97B5C281DA336004B6E44 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE97B5B281DA336004B6E44 /* CircleButtonAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		FAE97B50281D939D004B6E44 /* StatisticModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
 		FAE97B51281D939D004B6E44 /* CoinDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinDetailModel.swift; sourceTree = "<group>"; };
 		FAE97B59281D9491004B6E44 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		FAE97B5B281DA336004B6E44 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				FAE97B59281D9491004B6E44 /* CircleButtonView.swift */,
+				FAE97B5B281DA336004B6E44 /* CircleButtonAnimationView.swift */,
 			);
 			path = CIrcleButton;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				FAE97B45281D9369004B6E44 /* Date.swift in Sources */,
 				FAE97B4A281D9369004B6E44 /* Color.swift in Sources */,
 				FAE97B5A281D9491004B6E44 /* CircleButtonView.swift in Sources */,
+				FAE97B5C281DA336004B6E44 /* CircleButtonAnimationView.swift in Sources */,
 				FAE97B07281D9000004B6E44 /* CryptoWireApp.swift in Sources */,
 				FAE97B52281D939D004B6E44 /* CoinModel.swift in Sources */,
 				FAE97B13281D9002004B6E44 /* CryptoWire.xcdatamodeld in Sources */,
