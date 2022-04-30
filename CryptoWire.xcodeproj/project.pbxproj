@@ -23,7 +23,6 @@
 		FAE97B48281D9369004B6E44 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE97B42281D9369004B6E44 /* Double.swift */; };
 		FAE97B49281D9369004B6E44 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE97B43281D9369004B6E44 /* UIApplication.swift */; };
 		FAE97B4A281D9369004B6E44 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE97B44281D9369004B6E44 /* Color.swift */; };
-		FAE97B52281D939D004B6E44 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE97B4C281D939D004B6E44 /* CoinModel.swift */; };
 		FAE97B53281D939D004B6E44 /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE97B4D281D939D004B6E44 /* MarketDataModel.swift */; };
 		FAE97B54281D939D004B6E44 /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAE97B4E281D939D004B6E44 /* PortfolioContainer.xcdatamodeld */; };
 		FAE97B55281D939D004B6E44 /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE97B50281D939D004B6E44 /* StatisticModel.swift */; };
@@ -70,7 +69,6 @@
 		FAE97B42281D9369004B6E44 /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		FAE97B43281D9369004B6E44 /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		FAE97B44281D9369004B6E44 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		FAE97B4C281D939D004B6E44 /* CoinModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		FAE97B4D281D939D004B6E44 /* MarketDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketDataModel.swift; sourceTree = "<group>"; };
 		FAE97B4F281D939D004B6E44 /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		FAE97B50281D939D004B6E44 /* StatisticModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
@@ -224,7 +222,6 @@
 		FAE97B4B281D939D004B6E44 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				FAE97B4C281D939D004B6E44 /* CoinModel.swift */,
 				FAE97B4D281D939D004B6E44 /* MarketDataModel.swift */,
 				FAE97B4E281D939D004B6E44 /* PortfolioContainer.xcdatamodeld */,
 				FAE97B50281D939D004B6E44 /* StatisticModel.swift */,
@@ -397,7 +394,6 @@
 				FAE97B5A281D9491004B6E44 /* CircleButtonView.swift in Sources */,
 				FAE97B5C281DA336004B6E44 /* CircleButtonAnimationView.swift in Sources */,
 				FAE97B07281D9000004B6E44 /* CryptoWireApp.swift in Sources */,
-				FAE97B52281D939D004B6E44 /* CoinModel.swift in Sources */,
 				FAE97B13281D9002004B6E44 /* CryptoWire.xcdatamodeld in Sources */,
 				FAE97B53281D939D004B6E44 /* MarketDataModel.swift in Sources */,
 				FAE97B3D281D9332004B6E44 /* HomeVIew.swift in Sources */,
